@@ -10,17 +10,17 @@ export const store = [
                 check: false,
                 nameProject: "kinkiOne",
                 def: [
-                    {file: "kinkiTypeOneDefoult1"},
-                    {file: "kinkiTypeOneDefoult2"},
                     {file: "kinkiTypeOneDefoult3"},
+                    {file: "kinkiTypeOneDefoult2"},
                 ],
                 components: [
                     {id: v1(), groupElements: 0, name: "ViewOne", file: "kinkiOneViewOne", check: true},
                     {id: v1(), groupElements: 0, name: "ViewTwo", file: "kinkiOneViewTwo", check: false},
                     {id: v1(), groupElements: 0, name: "ViewThree", file: "kinkiOneViewThree", check: false},
-                    {id: v1(), groupElements: 1, name: "TypeOne", file: "kinkiOneTypeOne", check: true},
-                    {id: v1(), groupElements: 1, name: "TypeTwo", file: "kinkiOneTypeTwo", check: false},
-                    {id: v1(), groupElements: 1, name: "TypeThree", file: "kinkiOneTypeThree", check: false},
+                    {id: v1(), groupElements: 1, name: "beam", file: "balka", check: true},
+                    {id: v1(), groupElements: 1, name: "beamFalse", file: "balkaFalse", check: false},
+                    {id: v1(), groupElements: 2, name: "bad", file: "bad", check: true},
+                    {id: v1(), groupElements: 2, name: "badFalse", file: "badFalse", check: false},
                 ]
             },
         ]
